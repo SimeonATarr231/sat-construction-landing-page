@@ -570,28 +570,32 @@ section {
     #email { 
         width: 100%; 
     }
+}
 
-    .logo-text {
-        font-family: 'Lora', serif;
-        font-size: 1.4rem;
-        font-weight: bold;
-        color: var(--dark);
-    }
-    
-    .logo-sub {
-        font-size: 0.4rem;
-        letter-spacing: 2px;
-        color: var(--primary);
-        font-weight: 600;
-    }
-
+/* For Techno Camon 30s */
+@media (max-width:960px) {
     .nav-cta {
         background: var(--dark);
         color: var(--white);
-        padding: 6px 10px;
+        padding: 8px 10px;
         text-decoration: none;
         font-size: 0.6rem;
         border-radius: 2px;
+        font-weight: 600;
+    }
+
+    .logo-text {
+        font-family: 'Lora', serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: var(--dark);
+    }
+
+    .logo-sub {
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+        color: var(--primary);
         font-weight: 600;
     }
 }
